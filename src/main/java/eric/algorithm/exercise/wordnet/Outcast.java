@@ -1,8 +1,7 @@
+package eric.algorithm.exercise.wordnet;
+
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class Outcast {
 

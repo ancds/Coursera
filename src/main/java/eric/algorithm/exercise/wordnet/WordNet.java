@@ -1,3 +1,5 @@
+package eric.algorithm.exercise.wordnet;
+
 import edu.princeton.cs.algs4.Digraph;
 import edu.princeton.cs.algs4.DirectedCycle;
 
@@ -112,7 +114,7 @@ public class WordNet {
     }
 
   }
-  
+
   // returns all WordNet nouns
   public Iterable<String> nouns() {
     return wordsMap.keySet();

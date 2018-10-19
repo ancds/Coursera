@@ -71,14 +71,16 @@ public class Graph {
    * string representation of the graph’s adjacency lists.
    */
   public String toString() {
-    String s = vertices + " vertices, " + edges + " edges\n";
+    StringBuffer sb = new StringBuffer();
+    sb.append(vertices).append(" vertices, ").append(edgeNum).append(" edges\n");
+
     for (int v = 0; v < vertices; v++) {
-      s += v + ": ";
+      sb.append(v).append(": ");
       for (int w : this.adj(v)) {
-        s += w + " ";
+        sb.append(w).append(" ");
       }
-      s += "\n";
+      sb.append("\n");
     }
-    return s;
+    return sb.toString();
   }
 }

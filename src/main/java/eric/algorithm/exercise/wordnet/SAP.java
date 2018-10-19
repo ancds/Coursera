@@ -1,3 +1,5 @@
+package eric.algorithm.exercise.wordnet;
+
 import edu.princeton.cs.algs4.Digraph;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Queue;
@@ -12,7 +14,7 @@ public class SAP {
   private final Digraph g;
 
   /**
-   * constructor takes a digraph (not necessarily a DAG)
+   * constructor takes a digraph (not necessarily a DAG).
    */
   public SAP(Digraph g) {
     if (g == null) {
@@ -166,7 +168,9 @@ public class SAP {
     }
   }
 
-  // do unit testing of this class
+  /**
+   * test.
+   */
   public static void main(String[] args) {
 
     In in = new In(args[0]);
